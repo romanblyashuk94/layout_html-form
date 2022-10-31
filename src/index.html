@@ -18,7 +18,8 @@
         <legend class="form__legend">Personal information</legend>
         <label class="form__field">
           Surname:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="text"
           name="surname"
           autocomplete="off"
@@ -27,7 +28,8 @@
         </label>
         <label class="form__field">
           Name:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="text"
           name="name"
           autocomplete="off"
@@ -36,7 +38,8 @@
         </label>
         <label class="form__field">
           How old are You?
-          <input class="form__input"
+          <input
+          class="form__input"
           type="number"
           name="age"
           min="1"
@@ -47,7 +50,8 @@
         </label>
         <label class="form__field">
           Full date of birth:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="date"
           name="dateOfBirth"
           required
@@ -55,7 +59,8 @@
         </label>
         <label class="form__field">
           I accept the term of the agreement:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="checkbox"
           name="acceptTheTerms"
           value="true"
@@ -67,7 +72,8 @@
         <legend class="form__legend">Registration</legend>
         <label class="form__field">
           E-mail:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="email"
           placeholder="email@example.com"
           name="email"
@@ -76,7 +82,8 @@
         </label>
         <label class="form__field">
           Password:
-          <input class="form__input"
+          <input
+          class="form__input"
           type="password"
           name="password"
           required
@@ -85,31 +92,39 @@
       </fieldset>
       <fieldset class="form__fieldset">
         <legend class="form__legend">An interesting fact about you!</legend>
-        <label class="form__field">
+        <div class="form__field">
           Do you love cats?
-          <input class="form__input"
-          type="radio"
-          name="loveCats"
-          value="true"
-          >
-          Yes
-          <input class="form__input"
-          type="radio"
-          name="loveCats"
-          value="false"
-          >
-          No
-        </label>
+          <label>
+            <input
+            class="form__input"
+            type="radio"
+            name="loveCats"
+            value="true"
+            >
+            Yes
+          </label>
+          <label>
+            <input
+            class="form__input"
+            type="radio"
+            name="loveCats"
+            value="false"
+            >
+            No
+          </label>
+        </div>
         <label class="form__field">
           What is your favorite color?
-          <input class="form__input"
+          <input
+          class="form__input"
           type="color"
           name="favoriteColor"
           >
         </label>
         <label class="form__field">
           What time do you go to bed?
-          <input class="form__input"
+          <input
+          class="form__input"
           type="time"
           name="timeToGoToBed"
           >
@@ -124,7 +139,8 @@
         </label>
         <label class="form__field">
           How do tou rate our work?
-          <input class="form__input"
+          <input
+          class="form__input"
           type="range"
           min="0"
           max="10"
@@ -136,13 +152,13 @@
         <legend class="form__legend">Additional info:</legend>
         <label class="form__field">
           Comments:
-          <textarea name="Comments"
+          <textarea
+          name="Comments"
           cols="15"
           rows="2"
           minlength="10"
           maxlength="150"
-          >
-          </textarea>
+         ></textarea>
         </label>
         <label class="form__field">
           Would you recommend us?:
